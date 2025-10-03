@@ -1,4 +1,4 @@
-# Flutter Widgets App
+# Flutter Anime App
 
 A Flutter application that showcases a collection of **custom** and **built-in** widgets.  
 This project serves as a widget catalog and a learning playground for Flutter developers.
