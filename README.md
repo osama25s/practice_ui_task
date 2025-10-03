@@ -18,9 +18,7 @@ Watch the demo here:
 
 | Home Screen | Details Screen | plan Screen |
 |-------------|-------------|-----------------|
-| ![Home]([assets/screenshots/home.png](https://github.com/user-attachments/assets/23d9a894-dfdf-46da-8aef-412bbe82b88b)) | ![Demo](assets/screenshots/demo1.png) | ![Example](assets/screenshots/demo2.png) |
-
-*(Add more screenshots under `assets/screenshots/` for better preview)*
+| ![Home](https://github.com/user-attachments/assets/04770d45-7827-4914-af4a-b15a2f3257d8) | ![Demo](https://github.com/user-attachments/assets/f048804b-14df-4be6-b378-01753e81fa51) | ![Example](https://github.com/user-attachments/assets/23d9a894-dfdf-46da-8aef-412bbe82b88b) |
 
 ---
 
