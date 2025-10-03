@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:practice_ui_task/features/home/presentation/widget/navbar_widget.dart';
 
 void main() {
@@ -24,7 +23,6 @@ class AnimeStreamingApp extends StatelessWidget {
             brightness: Brightness.dark,
             primaryColor: const Color(0xFF6C5CE7),
             scaffoldBackgroundColor: const Color(0xFF1A1A1A),
-            fontFamily: 'SF Pro',
           ),
           home: const MainScreen(),
         );

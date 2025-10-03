@@ -5,47 +5,52 @@ import 'package:practice_ui_task/features/upgrade_plan/presentation/screens/upgr
 class ActionButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(
-          child: ElevatedButton.icon(
-            onPressed: () {},
-            icon: Icon(Icons.play_circle_outline, size: 20.sp),
-            label: Text('Preview', style: TextStyle(fontSize: 14.sp)),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.white30,
-              foregroundColor: Colors.white,
-              padding: EdgeInsets.all(16.h),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(32.r),
-              ),
-            ),
-          ),
-        ),
-        SizedBox(width: 12.w),
-        Expanded(
-          child: ElevatedButton.icon(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const UpgradePlanSheet(),
+    return Container(
+      color: Color(0xff16103C),
+      height: 70.h,
+      padding: EdgeInsets.symmetric(horizontal: 8.w),
+      child: Row(
+        children: [
+          Expanded(
+            child: ElevatedButton.icon(
+              onPressed: () {},
+              icon: Icon(Icons.play_circle_outline, size: 20.sp),
+              label: Text('Preview', style: TextStyle(fontSize: 14.sp)),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.white30,
+                foregroundColor: Colors.white,
+                padding: EdgeInsets.all(14.h),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(32.r),
                 ),
-              );
-            },
-            icon: Icon(Icons.play_arrow, size: 20.sp),
-            label: Text('Watch Now', style: TextStyle(fontSize: 14.sp)),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFF6C5CE7),
-              foregroundColor: Colors.white,
-              padding: EdgeInsets.all(16.h),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(32.r),
               ),
             ),
           ),
-        ),
-      ],
+          SizedBox(width: 12.w),
+          Expanded(
+            child: ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const UpgradePlanSheet(),
+                  ),
+                );
+              },
+              icon: Icon(Icons.play_arrow, size: 20.sp),
+              label: Text('Watch Now', style: TextStyle(fontSize: 14.sp)),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFF6C5CE7),
+                foregroundColor: Colors.white,
+                padding: EdgeInsets.all(14.h),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(32.r),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -8,14 +8,14 @@ class GenreTag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 12.w, vertical: 6.h),
+      padding: EdgeInsets.symmetric(horizontal: 14.w, vertical: 8.h),
       decoration: BoxDecoration(
-        color: Colors.white30.withOpacity(0.3),
-        borderRadius: BorderRadius.circular(16.r),
+        color: Colors.white30.withOpacity(0.2),
+        borderRadius: BorderRadius.circular(20.r),
       ),
       child: Text(
         label,
-        style: TextStyle(color: Colors.white70, fontSize: 12.sp),
+        style: TextStyle(color: Colors.white, fontSize: 14.sp),
       ),
     );
   }

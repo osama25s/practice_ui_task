@@ -23,24 +23,38 @@ class DetailsContent extends StatelessWidget {
               GenreTag(label: 'Adventure'),
             ],
           ),
-          SizedBox(height: 26.h),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: const [
-              StatWidget(icon: Icons.remove_red_eye, label: '2.3M views'),
-              SizedBox(width: 20),
-              StatWidget(icon: Icons.thumb_up_outlined, label: '2K clap'),
-              SizedBox(width: 20),
-              StatWidget(
-                icon: Icons.video_library_outlined,
-                label: '4 Seasons',
-              ),
-            ],
+          SizedBox(height: 20.h),
+          const Divider(
+            color: Colors.white24,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(vertical: 8.h),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: const [
+                StatWidget(icon: Icons.remove_red_eye, label: '2.3M views'),
+                SizedBox(width: 20),
+                StatWidget(icon: Icons.thumb_up_outlined, label: '2K clap'),
+                SizedBox(width: 20),
+                StatWidget(
+                  icon: Icons.video_library_outlined,
+                  label: '4 Seasons',
+                ),
+              ],
+            ),
+          ),
+          const Divider(
+            color: Colors.white24,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
           ),
           SizedBox(height: 20.h),
           Description_Text(),
-          SizedBox(height: 16.h),
-          ActionButtons(),
+          SizedBox(height: 55.h),
         ],
       ),
     );

@@ -13,7 +13,7 @@ class StatWidget extends StatelessWidget {
       children: [
         Icon(icon, size: 18.sp, color: Colors.white70),
         SizedBox(width: 4.w),
-        Text(label, style: TextStyle(color: Colors.white70, fontSize: 12.sp)),
+        Text(label, style: TextStyle(color: Colors.white70, fontSize: 14.sp)),
       ],
     );
   }

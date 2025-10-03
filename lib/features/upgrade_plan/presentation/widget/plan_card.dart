@@ -22,32 +22,21 @@ class PlanCard extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        padding: EdgeInsets.all(16.w),
+        padding: EdgeInsets.all(12.w),
         decoration: BoxDecoration(
-          color: isSelected ? const Color(0xFF6C5CE7) : Colors.white,
+          color: isSelected ? const Color(0xFF18153F) : Colors.white,
           borderRadius: BorderRadius.circular(16.r),
           border: Border.all(
-            color: isSelected ? const Color(0xFF6C5CE7) : Colors.grey.shade300,
+            color: isSelected ? const Color(0xFF18153F) : Colors.grey.shade300,
             width: 2.w,
           ),
         ),
         child: Row(
           children: [
-            Container(
-              width: 50.w,
-              height: 50.w,
-              decoration: BoxDecoration(
-                color:
-                    isSelected
-                        ? Colors.white.withOpacity(0.2)
-                        : Colors.grey.shade100,
-                borderRadius: BorderRadius.circular(8.r),
-              ),
-              child: Icon(
-                Icons.play_circle_outline,
-                color: isSelected ? Colors.white : Colors.black54,
-                size: 28.sp,
-              ),
+            Image.asset(
+              'assets/images/video_pic.png',
+              height: 70.h,
+              width: 70.w,
             ),
             SizedBox(width: 16.w),
             Expanded(

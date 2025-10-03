@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class CircleImage extends StatelessWidget {
-  const CircleImage();
+class mainImage extends StatelessWidget {
+  const mainImage();
 
   @override
   Widget build(BuildContext context) {

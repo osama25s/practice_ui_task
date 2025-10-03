@@ -20,57 +20,57 @@ class _UpgradePlanSheetState extends State<UpgradePlanSheet> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(24.r)),
-        ),
-        child: Stack(
-          children: [
-            /// Background Image
-            Positioned.fill(
-              child: Image.asset(
-                "assets/images/light_background.png", // your asset path
-                fit: BoxFit.cover,
-              ),
-            ),
-
-            /// Foreground content
-            Column(
-              children: [
-                const Header(),
-                const CircleImage(),
-                SizedBox(height: 20.h),
-                const TitleText(),
-                SizedBox(height: 8.h),
-                const SubtitleText(),
-                SizedBox(height: 20.h),
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 20.w),
-                  child: Column(
-                    children: [
-                      PlanCard(
-                        title: "Monthly",
-                        price: "\$5 USD",
-                        period: "/Month",
-                        isSelected: isMonthly,
-                        onTap: () => setState(() => isMonthly = true),
-                      ),
-                      SizedBox(height: 12.h),
-                      PlanCard(
-                        title: "Annually",
-                        price: "\$50 USD",
-                        period: "/Year",
-                        isSelected: !isMonthly,
-                        onTap: () => setState(() => isMonthly = false),
-                      ),
-                    ],
-                  ),
+      body: SafeArea(
+        child: Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24.r)),
+          ),
+          child: Stack(
+            children: [
+              Positioned.fill(
+                child: Image.asset(
+                  "assets/images/light_background.png",
+                  fit: BoxFit.cover,
                 ),
-                SizedBox(height: 50.h),
-                const ContinueButton(),
-              ],
-            ),
-          ],
+              ),
+
+              Column(
+                children: [
+                  const Header(),
+                  const mainImage(),
+                  SizedBox(height: 18.h),
+                  const TitleText(),
+                  SizedBox(height: 8.h),
+                  const SubtitleText(),
+                  SizedBox(height: 20.h),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16.w),
+                    child: Column(
+                      children: [
+                        PlanCard(
+                          title: "Monthly",
+                          price: "\$5 USD",
+                          period: "/Month",
+                          isSelected: isMonthly,
+                          onTap: () => setState(() => isMonthly = true),
+                        ),
+                        SizedBox(height: 12.h),
+                        PlanCard(
+                          title: "Annually",
+                          price: "\$50 USD",
+                          period: "/Year",
+                          isSelected: !isMonthly,
+                          onTap: () => setState(() => isMonthly = false),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(height: 20.h),
+                  const ContinueButton(),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
