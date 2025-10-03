@@ -44,16 +44,7 @@ git clone https://github.com/osama25s/flutter_widgets_app.git
 cd flutter_widgets_app
 flutter pub get
 flutter run
-📂 Project Structure
-bash
-Copy code
-lib/
- ├── main.dart
- ├── widgets_demo/     # Widget examples
- ├── screens/          # UI screens for navigation
- ├── utils/            # Helpers, constants
- └── ...
-assets/                # Screenshots, images, fonts
+```
 🤝 Contributing
 Contributions are welcome! 🎉
 
@@ -69,5 +60,5 @@ Open a Pull Request
 This project is licensed under the MIT License.
 
 👤 Author
+
 Osama Saad
-GitHub: osama25s
