@@ -1,16 +1,75 @@
-# practice_ui_task
+# Flutter Widgets App
 
-A new Flutter project.
+A Flutter application that showcases a collection of **custom** and **built-in** widgets.  
+This project serves as a widget catalog and a learning playground for Flutter developers.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎥 Demo Video
 
-A few resources to get you started if this is your first Flutter project:
+Watch the demo here:  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[▶️ Watch Demo Video](https://github.com/user-attachments/assets/4a704845-5d80-4404-b7f0-63f68e082a08)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+---
+
+## 📸 Screenshots
+
+| Home Screen | Details Screen | plan Screen |
+|-------------|-------------|-----------------|
+| ![Home]([assets/screenshots/home.png](https://github.com/user-attachments/assets/23d9a894-dfdf-46da-8aef-412bbe82b88b)) | ![Demo](assets/screenshots/demo1.png) | ![Example](assets/screenshots/demo2.png) |
+
+*(Add more screenshots under `assets/screenshots/` for better preview)*
+
+---
+
+## ✨ Features
+
+- 📱 Widget demos for learning & reference  
+- 🎨 UI/UX animations & layouts  
+- 🧩 Clean and modular code structure  
+- ⚡ Cross-platform support (Android, iOS, Web, Desktop)  
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install) (version 3.x recommended)  
+- Set up emulator/simulator or use a real device  
+
+### Installation
+
+```bash
+git clone https://github.com/osama25s/flutter_widgets_app.git
+cd flutter_widgets_app
+flutter pub get
+flutter run
+📂 Project Structure
+bash
+Copy code
+lib/
+ ├── main.dart
+ ├── widgets_demo/     # Widget examples
+ ├── screens/          # UI screens for navigation
+ ├── utils/            # Helpers, constants
+ └── ...
+assets/                # Screenshots, images, fonts
+🤝 Contributing
+Contributions are welcome! 🎉
+
+Fork the repo
+
+Create a new branch feature/your-widget
+
+Add your demo widget
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+👤 Author
+Osama Saad
+GitHub: osama25s
