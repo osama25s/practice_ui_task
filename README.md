@@ -1,7 +1,9 @@
 # Flutter Anime App
 
-A Flutter application that showcases a collection of **custom** and **built-in** widgets.  
-This project serves as a widget catalog and a learning playground for Flutter developers.
+A Flutter project built to practice converting **Figma UI designs** into a real mobile application.  
+This app focuses on an **Anime-themed UI**, showcasing how to transform design concepts into  
+pixel-perfect Flutter implementations.
+
 
 ---
 
